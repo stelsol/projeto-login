@@ -1,5 +1,46 @@
 @charset "UTF-8";
 /*Paleta de cores:
     #0D13AD
-    #C1BDBD
+    #F0F5FB
 */
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: #F0F5FB;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+section.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow:hidden;
+
+    transform: translate(-50%,-50%);
+    background-color: #c3d4e9 ;
+    width: 300px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+} 
+section.login > div.imagem{
+    display: block;
+    background: url(../imagens/gestan.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+section.login > div.formulario{
+    display: block;
+    padding: 10px;
+}
